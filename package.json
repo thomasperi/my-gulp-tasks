@@ -1,0 +1,22 @@
+{
+  "name": "@thomasperi/my-gulp-tasks",
+  "version": "1.0.0",
+  "description": "Some gulp tasks that are common to a growing number of my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "Thomas Peri",
+  "license": "MIT",
+  "devDependencies": {
+    "@thomasperi/raise-comments": "^1.0.0",
+    "@thomasperi/umd-pullup": "^1.0.4",
+    "gulp-jshint": "^2.1.0",
+    "gulp-mocha": "^7.0.2",
+    "gulp-regex-rename": "^0.1.0",
+    "gulp-terser": "^1.2.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-umd": "^2.0.0"
+  }
+}
