@@ -12,14 +12,15 @@
   "dependencies": {
     "@thomasperi/raise-comments": "^1.0.0",
     "@thomasperi/umd-pullup": "^1.0.4",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
     "gulp-jshint": "^2.1.0",
     "gulp-mocha": "^7.0.2",
     "gulp-regex-rename": "^0.1.0",
     "gulp-terser": "^1.2.0",
     "gulp-uglify": "^3.0.2",
     "gulp-umd": "^2.0.0",
-    "chai": "^4.2.0",
-    "gulp": "^4.0.2",
-    "gulp4-run-sequence": "^1.0.1"
+    "gulp4-run-sequence": "^1.0.1",
+    "jshint": "^2.11.0"
   }
 }
