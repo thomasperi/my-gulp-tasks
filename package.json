@@ -17,6 +17,9 @@
     "gulp-regex-rename": "^0.1.0",
     "gulp-terser": "^1.2.0",
     "gulp-uglify": "^3.0.2",
-    "gulp-umd": "^2.0.0"
+    "gulp-umd": "^2.0.0",
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp4-run-sequence": "^1.0.1"
   }
 }
