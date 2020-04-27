@@ -9,7 +9,7 @@
   },
   "author": "Thomas Peri",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "@thomasperi/raise-comments": "^1.0.0",
     "@thomasperi/umd-pullup": "^1.0.4",
     "gulp-jshint": "^2.1.0",
