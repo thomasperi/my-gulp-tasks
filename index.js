@@ -195,9 +195,11 @@ module.exports = function (options) {
 			if (!fs.existsSync(indexfile)) {
 				var index = (fs
 					.readFileSync(__dirname + '/examples-index.tpl', 'utf-8')
-					.replace('{%pretty_name%}', options.pretty_name)
-					.replace('{%export_var%}', options.export_var)
-					.replace('{%pkg_main%}', pkg.main)
+					// Populate template using function arguments to .replace()
+					// so that dollar signs don't need to be escaped.
+					.replace('{%pretty_name%}', ()=>options.pretty_name)
+					.replace('{%export_var%}', ()=>options.export_var)
+					.replace('{%pkg_main%}', ()=>pkg.main)
 				);
 				fs.writeFileSync(indexfile, index);
 			}
